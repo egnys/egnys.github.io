@@ -1,0 +1,121 @@
+body, html{
+	margin: 0;
+	padding:0;
+}
+body{
+	font-weight: 700;
+	font-size: 16px;
+	font-family: Arial;
+	background: rgb(132,65,180);
+	background: radial-gradient(circle, rgba(132,65,180,1) 0%, rgba(1,1,0,1) 100%);
+}
+
+.header{
+	max-width: 1280px;
+	margin: 0 auto;	
+	text-align: center;
+	font-size: 60px;
+	margin-top: 50px;
+	margin-bottom: 120px;
+}
+.header span{
+	color: white;
+}
+.header span:before{
+	content: '';
+	width: 60px;
+	height: 60px;
+	background: url('../Source/wow.png')  no-repeat;
+	background-size: 60px;
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+	top: 7.5px;
+}
+
+.content{
+	max-width: 720px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 60px;
+	padding-bottom: 1px;
+	background: rgba(242, 242, 242, 0.05);
+}
+.content span{
+	border-bottom: 2px solid #D9E1FD;
+	color: white;
+}
+
+.classes li{
+	display: inline-block;
+	margin-right: 60px;
+}
+
+.classes{
+	list-style-type: none;
+}
+
+.classes li:hover{
+	box-shadow: 0 0 15px;
+}
+.c1 li:nth-child(1){
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: url('../Source/warrior.png') no-repeat left;
+}
+
+.c1 li:nth-child(2){
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: url('../Source/mage.png') no-repeat left;
+}
+.c1 li:nth-child(3){
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: url('../Source/rogue.png') no-repeat left;
+}
+.c1 li:nth-child(4){
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: url('../Source/hunter.png') no-repeat left;
+}
+
+.c2 li:nth-child(1){
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: url('../Source/paladin.png') no-repeat left;
+}
+
+.c2 li:nth-child(2){
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: url('../Source/priest.png') no-repeat left;
+}
+
+.c2 li:nth-child(3){
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: url('../Source/warlock.png') no-repeat left;
+}
+.c2 li:nth-child(4){
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: url('../Source/druid.png') no-repeat left;
+}
+
+.classes a{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	position: relative;
+	top: 25px;
+}
